@@ -3,7 +3,7 @@ from links import ListLinksHandler
 from others import AkarinHandler, NotFoundHandler, HitokotoHandler
 from background import SignInHandler, ManagePostHandler, AddLinkHandler, AddPostHandler
 from diaries import RetrieveDiaryHandler, ListDiariesHandler
-
+from webhook import WebHookHandler
 
 handlers = [
     # posts.py
@@ -26,6 +26,9 @@ handlers = [
     (r'/kamisama/posts', ManagePostHandler),
     (r'/kamisama/posts/add', AddPostHandler),
     (r'/kamisama/links', AddLinkHandler),
+
+    # webhook.py
+    (r'/hook', WebHookHandler),
 
     # others.py
     (r'/akarin', AkarinHandler),
