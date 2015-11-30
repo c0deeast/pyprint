@@ -5,7 +5,7 @@
 username = 'c0deeast'
 email = 'c0deeast@foxmail.com'
 title = 'c0deeast\'s Blog'
-motto = u'小逗比'
+motto = u'east@0xFA.club'
 disqus_shortname = 'c0deeast'
 
 # themes name
